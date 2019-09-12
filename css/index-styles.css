@@ -1,0 +1,45 @@
+.aside-right{
+        
+    /* margin: auto;  */
+    margin-bottom: auto;
+    width: 25%;
+    height: 100%;
+    display: inline-flex;
+    border: 3px solid blue;
+    float: right;
+}
+
+.aside-left{
+    
+    /* margin: auto; */
+    display: inline-flex;
+  
+    width: 25%;
+    height: 100%;
+
+    float: left;
+    border: 3px solid green;
+}
+
+.block{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border: 3px solid yellow;
+    display: flex;
+}
+
+.content-block{
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    border: 3px solid purple;
+}
+
+.header-content-center{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
