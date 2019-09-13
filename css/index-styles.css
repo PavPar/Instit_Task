@@ -46,7 +46,7 @@
 
 .content-block{
     display: inline-block;
-    width: 70%;
+    width: 85%;
     text-align: center;
     background-color: pink;
 }
@@ -69,7 +69,7 @@
 
 .header-textblock{
     display: inline-block;
-    width: 80%;
+    width: 100%;
     background-color: pink;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
