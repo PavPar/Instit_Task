@@ -4,7 +4,7 @@
     /* margin-bottom: auto; */
     width: 15%;
     min-height: 100%;
-    display: inline-flex;
+    /* display: inline; */
     background-color: cyan;
     float: right;
 }
@@ -12,7 +12,7 @@
 .aside-left{
     /* margin-bottom: auto; */
     /* margin: auto; */
-    display: inline-flex;
+    /* display: inline-flex; */
   
     width: 15%;
     min-height: 100%;
