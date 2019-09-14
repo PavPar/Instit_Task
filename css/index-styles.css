@@ -10,15 +10,11 @@
 }
 
 .aside-left{
-    /* margin-bottom: auto; */
-    /* margin: auto; */
-    /* display: inline-flex; */
-  
+    position: relative;
     width: 15%;
-    min-height: 100%;
-
-    float: left;
-    /* background-color: green; */
+    min-height: 90;
+    background-color: green;
+    display: inline-block;
 }
 
 .main-block{
@@ -26,6 +22,9 @@
     height: 100%;
     position: fixed;
     overflow: scroll;
+    border: 0px;
+    padding: 0px;
+    margin:0px;
 }
 
 .block,.block-head,.block-content,.block-footer{
@@ -45,10 +44,12 @@
 }
 
 .content-block{
-    display: inline-block;
+
     width: 85%;
+    min-height: 70%;
     text-align: center;
     background-color: pink;
+    display: inline-block;
 }
 
 .navbar-content{
@@ -63,7 +64,7 @@
 .logo{
     margin: auto;
     text-align: center;
-    max-width: 40%;
+    width: auto;
     height: auto;
 }
 
@@ -84,5 +85,5 @@
 }
 
 .block-footer{
-    min-height: 10%;
+    min-height: 15%;
 }
