@@ -6,23 +6,21 @@ body {
     position: absolute;
 }
 
-.aside-left{
+.aside-left {
     width: 15%;
     height: 100%;
     background-color: #414141;
     float: left;
 }
 
-.content-block{
+.content-block {
     width: 85%;
     height: 100%;
-    background-color:#525252; 
+    background-color: #525252;
     float: left;
-        
 }
 
-
-.main-block{
+.main-block {
     width: 100%;
     height: 100%;
     /* position: fixed; */
@@ -30,7 +28,11 @@ body {
     display: table;
 }
 
-.block,.block-head,.block-content,.block-footer,.block-navbar{
+.block,
+.block-head,
+.block-content,
+.block-footer,
+.block-navbar {
     margin: 0px;
     width: 100%;
     padding: 0px;
@@ -38,110 +40,74 @@ body {
     display: table-row;
 }
 
-
-.block-navbar{
+.block-navbar {
     width: 100%;
-    background-color: rgba(202,62,71,1);
+    background-color: rgba(202, 62, 71, 1);
     overflow: hidden;
     height: unset;
     height: 5px;
 }
 
-.logo{
+.logo {
     margin: auto;
     /* width: 5%; */
     /* height: auto; */
     display: block;
 }
 
-
-.block-head{
+.block-head {
     width: 100%;
-    background-color: rgba(255,88,93,1);
+    background-color: rgba(255, 88, 93, 1);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 10px;
 }
 
-.block-content{
+.block-content {
     height: 70%;
-    
 }
 
-.block-footer{
+.block-footer {
     width: 100%;
     text-align: center;
 }
 
-
-
-.btn-aside,.btn-navbar{
+.btn-aside,
+.btn-navbar {
     border-style: solid;
 }
 
-.btn-aside{
+.btn-aside {
     display: block;
     padding: 16px 16px;
 }
 
-.btn-navbar{
+.btn-navbar {
     display: block;
     padding: 16px 16px;
-    user-select: none; 
+    user-select: none;
 }
 
-.btn-navbar:active{
+.btn-navbar:active {
     background: red;
-
 }
 
-.btn-navbar:hover{
+.btn-navbar:hover {
     background: yellow;
 }
 
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  overflow: hidden;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
 }
 
-.navbar{
+.navbar {
     float: left;
 }
 
-
-
-h1{
+h1 {
     text-align: center;
-}
-
-
-.fig{
-    background: blue;
-    border:3px;
-    width: 100px;
-    height: 100px;
-    position: relative;
-}
-
-.fig::before{
-    content: "";
-    position: absolute;
-    background: red;
-    border:3px;
-    width: 50px;
-    height: 50px;
-}
-
-.fig-container{
-    width: 150px;
-    height: 150px;
-    /* text-align: center; */
-}   
-
-.cntn{
-    height: 100%;
-    width: 100%;
 }
