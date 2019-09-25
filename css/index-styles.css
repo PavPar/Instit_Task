@@ -19,7 +19,7 @@ body {
     height: 100%;
     background-color: #525252;
     margin-left: 220px;
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 
 .main-block {
